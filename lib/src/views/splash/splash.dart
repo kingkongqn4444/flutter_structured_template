@@ -60,11 +60,10 @@ class _SplashPageState extends State<SplashPage> with TickerProviderStateMixin {
         alignment: Alignment.center,
         children: [
           Container(
-            height: double.infinity,
-            width: double.infinity,
-            alignment: Alignment.center,
-            color: Theme.of(context).primaryColor,
-          ),
+              height: double.infinity,
+              width: double.infinity,
+              alignment: Alignment.center,
+              color: Colors.white),
           FadeTransition(
             opacity: _fadeInFadeOut!,
             child: Image.asset(
